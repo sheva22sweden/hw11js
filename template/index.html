@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script
+	  src="https://code.jquery.com/jquery-1.12.4.min.js"
+	  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+	  crossorigin="anonymous"></script>
+	<script src="js/tmpl.js"></script>
+	<script src="js/script.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+<style>
+
+</style>
+</head>
+<body>
+	
+	<script type="text/html" id="test">
+		<div class="container">
+			<div class="box">
+				<h1 id="h1"><%= title %></h1>
+				<div id="foto"> <img src="images/img1.png" alt="sdq"><%= image %></div>
+				<p id="article"><%= article %></p>
+				<h3 class="h3"><%= text1 %></h3>
+				<p id="tel"><%= tel %></p>
+				<h3 class="h3"><%= text2 %></h3>
+				<p class="about"><%= content %></p>
+				<h3 class="h3"><%= text3 %></h3>
+				<div class="h3"><a href="https://vk.com/id68213756" class="link">vk.com</a><%= link %></div>
+			</div>
+		</div>
+	</script>
+	
+	
+</body>
+</html>

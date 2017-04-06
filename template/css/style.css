@@ -1,0 +1,26 @@
+.container {
+	width: 960px;
+	margin: 0 auto;
+	background-color: #eee;
+	font-family: Arial;
+}
+.box {
+	width: 600px;
+	margin: 0 auto;
+
+}
+.inner {
+	border-bottom: 2px solid red;
+}
+#h1, #foto, #article, #tel, .h3, .about {
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
+}
+#article, #tel, .about {
+	border-bottom: 2px solid #777;
+	color: #777;
+}
+.link {
+	font-style: italic;
+}
